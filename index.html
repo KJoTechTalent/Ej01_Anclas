@@ -5,20 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ej01_Anclas</title>
 </head>
+<style>
+    .TitleSection{
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+    }
+</style>
 <body>  
 <!-- Crea las diferentes secciones de un HTML (header, main, footer...). -->
 <header>  
-    <nav>  
-        <div><a href="">Section 1</a></div>
-        <div><a href="">Section 2</a></div>
-        <div><a href="">Section 3</a></div>
-        <div><a href="">Section 4</a></div>
-        <div><a href="">Section 5</a></div>
+    <nav style="display: flex; column-gap: 20px;" id="navegator">  
+        <div><a href="#section1">Section 1</a></div>
+        <div><a href="#section2">Section 2</a></div>
+        <div><a href="#section3">Section 3</a></div>
+        <div><a href="#section4">Section 4</a></div>
+        <div><a href="#section5">Section 5</a></div>
     </nav>
 </header>
-<!-- Utilizar NAV para escribir los enlaces del menú principal -->
-<!-- Haz un menú de anclas que baje hasta cada title (utiliza ids para ello) -->
-<!-- Finalmente haz que encabezado (titulo) vaya acompañado de un �� que nos desplace arriba
-del todo de nuestra web -->
+<main>
+    <div>
+        <div class="TitleSection" id="section1"><h2>Section 1</h2><a href="#navegator"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 1024 1024"><path fill="black" d="M859.9 168H164.1c-4.5 0-8.1 3.6-8.1 8v60c0 4.4 3.6 8 8.1 8h695.8c4.5 0 8.1-3.6 8.1-8v-60c0-4.4-3.6-8-8.1-8M518.3 355a8 8 0 0 0-12.6 0l-112 141.7a7.98 7.98 0 0 0 6.3 12.9h73.9V848c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V509.7H624c6.7 0 10.4-7.7 6.3-12.9z"/></svg></a></div>
+        <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae inventore culpa beatae, accusamus laboriosam laudantium cumque, quibusdam optio voluptas, unde quo eligendi placeat aspernatur consequatur nulla veritatis enim! Eius, id!</p>
+        <p>Blanditiis inventore quae deleniti odit asperiores dicta, a sint veritatis accusamus quisquam. Cupiditate totam sed laborum quae, saepe error mollitia sequi assumenda reprehenderit obcaecati quibusdam nobis dicta accusantium earum? Illum.</p>
+        <p>Maiores doloribus voluptatum eos voluptate dignissimos quo dolor inventore cumque? Amet et quisquam temporibus quae, labore numquam distinctio rerum magnam quidem nulla deserunt pariatur doloribus cumque facere dolore exercitationem nobis?</p></div>
+    </div>
+    <div>
+        <div class="TitleSection" id="section2"><h2>Section 2</h2><a href="#navegator"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 1024 1024"><path fill="black" d="M859.9 168H164.1c-4.5 0-8.1 3.6-8.1 8v60c0 4.4 3.6 8 8.1 8h695.8c4.5 0 8.1-3.6 8.1-8v-60c0-4.4-3.6-8-8.1-8M518.3 355a8 8 0 0 0-12.6 0l-112 141.7a7.98 7.98 0 0 0 6.3 12.9h73.9V848c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V509.7H624c6.7 0 10.4-7.7 6.3-12.9z"/></svg></a></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, debitis et, adipisci aliquam laudantium itaque inventore velit sit vitae quos fugiat, cum hic ipsa cupiditate excepturi veniam. Quibusdam, ipsa rerum.</p>
+        <p>Porro sunt enim eum sit, iste repellendus architecto magni reprehenderit perspiciatis labore repellat facere aspernatur eligendi fuga cumque voluptatibus reiciendis. Adipisci consequuntur est velit atque perspiciatis cupiditate incidunt vel! Magni.</p>
+        <p>Quaerat eveniet repudiandae ad vitae quos, veniam cum reprehenderit obcaecati earum minima praesentium possimus exercitationem minus porro ipsa? Blanditiis beatae eos vel ea aliquam ut libero obcaecati culpa sit dolorem.</p>
+        <p>Quia totam id, soluta magni ullam corporis, odio assumenda amet rem minima aliquam voluptas fuga sapiente placeat dolorum asperiores ipsa maiores accusantium veritatis temporibus unde suscipit, vero mollitia vitae! Veritatis?</p></div>
+    </div>
+    <div>
+        <div class="TitleSection" id="section3"><h2>Section 3</h2><a href="#navegator"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 1024 1024"><path fill="black" d="M859.9 168H164.1c-4.5 0-8.1 3.6-8.1 8v60c0 4.4 3.6 8 8.1 8h695.8c4.5 0 8.1-3.6 8.1-8v-60c0-4.4-3.6-8-8.1-8M518.3 355a8 8 0 0 0-12.6 0l-112 141.7a7.98 7.98 0 0 0 6.3 12.9h73.9V848c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V509.7H624c6.7 0 10.4-7.7 6.3-12.9z"/></svg></a></div>
+        <div><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore similique autem alias cum unde quis est quibusdam maiores dicta repellat dolorum atque nobis deserunt temporibus facere ipsum, tenetur minima eum?</p>
+        <p>Suscipit quasi autem, facilis repudiandae error dolores cumque qui officia reprehenderit atque nemo, hic ipsa exercitationem accusantium molestiae asperiores harum quia voluptate tenetur voluptates eaque placeat? Ullam iure esse hic.</p>
+        <p>Nam voluptatibus, earum commodi, provident quod ducimus facilis quibusdam itaque ab, eos ipsum quae ea nemo corporis ex veniam accusamus culpa aspernatur cumque! Assumenda eum atque ex enim quae. Accusamus.</p></div>
+    </div>
+    <div>
+        <div class="TitleSection" id="section4"><h2>Section 4</h2><a href="#navegator"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 1024 1024"><path fill="black" d="M859.9 168H164.1c-4.5 0-8.1 3.6-8.1 8v60c0 4.4 3.6 8 8.1 8h695.8c4.5 0 8.1-3.6 8.1-8v-60c0-4.4-3.6-8-8.1-8M518.3 355a8 8 0 0 0-12.6 0l-112 141.7a7.98 7.98 0 0 0 6.3 12.9h73.9V848c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V509.7H624c6.7 0 10.4-7.7 6.3-12.9z"/></svg></a></div>
+        <div><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto asperiores eos libero similique ut optio iste possimus obcaecati! Iure quae similique ex labore quis sequi officia dolores, soluta odit?</p>
+        <p>Corrupti vitae fuga expedita et libero, facere ad. Beatae, quae nihil facere deserunt autem unde incidunt quibusdam iste magni harum omnis ea minus, illum sit minima amet, obcaecati eligendi dolor?</p>
+        <p>Officia dolorem natus consequatur dicta minus quia labore tempora ab blanditiis ut pariatur repellat at, sequi, exercitationem expedita repellendus in rerum recusandae provident. Quo tenetur magni odit aliquid minima! Quaerat.</p>
+        <p>Quasi quo maiores iusto, corporis ipsum exercitationem temporibus labore nam quam nemo vel suscipit cupiditate ex! Iusto quae temporibus id sint eos labore ex amet, est magni laborum nisi quia!</p></div>
+    </div>
+    <div>
+        <div class="TitleSection" id="section5"><h2>Section 5</h2><a href="#navegator"><svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 1024 1024"><path fill="black" d="M859.9 168H164.1c-4.5 0-8.1 3.6-8.1 8v60c0 4.4 3.6 8 8.1 8h695.8c4.5 0 8.1-3.6 8.1-8v-60c0-4.4-3.6-8-8.1-8M518.3 355a8 8 0 0 0-12.6 0l-112 141.7a7.98 7.98 0 0 0 6.3 12.9h73.9V848c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V509.7H624c6.7 0 10.4-7.7 6.3-12.9z"/></svg></a></div>
+        <div><p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum vero consectetur, fugiat aliquid officiis nisi ullam labore dicta corrupti? Velit debitis modi odit nostrum voluptates odio molestiae quaerat inventore cum?</p>
+        <p>Quasi vero provident debitis minus, sint cupiditate nisi at consectetur dolorem qui quia beatae dicta iure, voluptatem, delectus asperiores accusantium. Dolores nam necessitatibus aliquam amet similique magnam! Libero, magni accusamus.</p>
+        <p>Illum laudantium doloremque ad eius quam iste excepturi atque, culpa ipsam placeat fugiat! Enim laboriosam odio fuga ex cupiditate ipsum voluptatum eaque quae perferendis ratione! Accusamus ad ducimus ipsa totam.</p>
+        <p>Explicabo temporibus voluptate sunt iure provident incidunt alias omnis sit maiores officia vitae ab distinctio, officiis sapiente porro aperiam recusandae nemo libero. Illo ratione nihil dolorem accusantium tempora hic sequi.</p></div>
+    </div>
+
+</main>
+<footer style="display: flex; flex-direction: row; column-gap: 10px;">
+    <div>Ejemplo footer  1</div>
+    <div>Ejemplo footer  2</div>
+    <div>Ejemplo footer  3</div>
+    <div>Ejemplo footer  4</div>
+</footer>
 </body>
 </html>
